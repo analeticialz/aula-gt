@@ -8,6 +8,348 @@
 <body>
     <h1>OLÁ MUNDO! MINHA PRIMEIRA PAGINA</h1>
     <p>teste</p>
-    meu primeiro git
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cor1{
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+
+            position: relative;
+            top:200px; 
+            bottom: ;
+            left: 100px;
+            right: ;
+            z-index: 2;
+
+        }
+        .cor2{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+
+            position: relative;
+            
+        }
+        .cor3{
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            position: relative;
+
+            top:50px; 
+            bottom: ;
+            left: ;
+            right:150px ;
+            z-index: ;
+        }
+        .cor4{
+            background-color: gray;
+            width: 100px;
+            height: 100px;
+            display: none;
+        }
+
+        .cor5{
+            background-color: purple;
+            width: 200px;
+            height: 200px;
+            display: ;
+            position: sticky;
+            top: 0px;
+
+
+        }
+        span{
+            background-color: blue;
+            display: block;
+            
+        }
+        .conteiner{
+            background-color: rgb(4, 104, 104);
+            height: 500px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Aula de display</h1>
+    <h3 class="cor1">Conteudo 1</h3>
+    <h3 class="cor2">Conteudo 2</h3>
+    <h3 class="cor3">Conteudo 3</h3>
+    <h3 class="cor4">Conteudo 4</h3>
+
+    <a class="cor1" href="">click aqui 1</a>
+    <a class="cor2" href="">click aqui 2</a>
+    <a class="cor3" href="">click aqui 3</a>
+    <a class="cor4" href="">click aqui 4</a>
+
+    <p>Lorem ipsum dolor 
+        Dsit amet consectetur, adipisicing elit. 
+        <span> consequuntur suscipit sapiente dolorem aliquid, blanditiis.</span> architecto vitae magni in at minus, facere asperiores pariatur voluptatem voluptatibus, sed reiciendis earum odit?
+    </p>
+
+    <h1>Position</h1>
+
+    <div class="conteiner">
+        <div class="cor1">
+            <p>DIV 1</p>
+        </div>
+        <div class="cor2">
+            <p>DIV 2</p>
+        </div>
+        <div class="cor3">
+            <p>DIV 3</p>
+        </div>
+        
+
+    </div>
+    <div class="cor5">
+        <p>DIV 3</p>
+    </div>
+    
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
+
+================================ FlexBox========================================
+
+
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Flexbox - Flexible Box Layout</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+			#conteudo {
+				background: #dcdcdc;
+				height: 600px;
+				display: ;
+
+				/*
+				row|row-reverse|column|column-reverse 
+				
+				flex-direction: row ;
+				*/
+				/*
+				nowrap|wrap|wrap-reverse
+				
+				flex-wrap: nowrap ;
+				*/
+				/*
+				flex-start|flex-end|center|space-between|space-around
+				
+				justify-content: space-between ;
+				*/
+				/*
+				stretch|center|flex-start|flex-end|baseline
+				
+				align-items:center;
+				*/
+			}
+
+			.item {
+				margin:10;
+				background: white;
+				border: 1px solid gray;
+				height: 100px;
+				width: 200px;
+			}
+			/*.ordem1{
+				order: 1;
+			}
+			.ordem2{
+				order: 2;
+			}
+			.ordem3{
+				order:3;
+			}
+			.ordem4{
+				order: 4;
+			}
+
+			.item1{
+				flex-grow: 1;
+			}
+			.item2{
+				flex-shrink: 3;
+				flex-basis: 100;
+			}
+			*/
+		</style>
+
+	</head>
+
+	<body>	
+
+		<h1>Flexbox</h1>
+		<div id="conteudo">
+			<div class="item">01</div>
+			<div class="item ">02</div>
+			<div class="item">03</div>
+			<div class="item ">04</div>
+			<div class="item ">05</div>
+		</div>
+
+		
+	</body>
+
+</html>
+
+EXERCÍCIO FLEX FROGGY
+
+https://flexboxfroggy.com/
+
+
+
+
+============================= BoxModel ==============================
+
+
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Flexbox - Flexible Box Layout</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+			
+			#conteudo {
+				background: #dcdcdc;
+				height: 600px;
+				display: flex;
+
+				/*
+				row|row-reverse|column|column-reverse 
+				*/
+				flex-direction: row;
+				
+				/*
+				nowrap|wrap|wrap-reverse
+				*/
+				flex-wrap: wrap ;
+				
+				/*
+				flex-start|flex-end|center|space-between|space-around
+				*/
+				justify-content:space-around;
+				
+				/*
+				stretch|center|flex-start|flex-end|baseline
+				*/
+				align-items:center;
+
+				/*stretch | flex-start | flex-end | center | space-between | space-around*/
+				/*
+				align-content:
+
+				*/
+
+
+				
+			}
+
+			.item {
+				margin:10;
+				background: white;
+				border: 1px solid gray;
+				height: 300px;
+				width: 200px;
+				padding: 0px;
+				margin: 0px;
+				
+			}
+			p{
+				text-align: justify;
+				background-color: aqua;
+				padding: 10px;
+				border: solid 5px purple;
+				margin: 10px;
+			}
+			/*
+				flex-grow
+				flex-basis: auto;
+				flex-shrink;
+				flex-shrink
+				flex-shrink
+
+			*/
+			/*.ordem1{
+				order: 1;
+			}
+			.ordem2{
+				order: 2;
+			}
+			.ordem3{
+				order:3;
+			}
+			.ordem4{
+				order: 4;
+			}
+
+			.item1{
+				flex-grow: 1;
+			}
+			.item2{
+				flex-shrink: 3;
+				flex-basis: 100;
+			}
+			*/
+		</style>
+
+	</head>
+
+	<body>	
+
+		<h1>Flexbox</h1>
+		<div id="conteudo">
+			<div class="item">
+				<p>Lorem  consectetur adipisicing elit. Qui, facere adipisci excepturi rem animi perferendis consequuntur neque ipsam cum ducimus saepe perspiciatis reprehenderit. Temporibus architecto maiores ab in et est.</p>
+			</div>
+			<div class="item ">02</div>
+			<div class="item">03</div>
+			<div class="item ">04</div>
+			<div class="item ">05</div>
+		</div>
+
+		
+	</body>
+
+</html>
+
+
+
+
+
+=============================== Atividade =========================
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header{
+  text-align: center;
+  background-color: #ff5722;
+  color: white;
+  padding: 10px;;
+}
+
+
 </body>
 </html>
