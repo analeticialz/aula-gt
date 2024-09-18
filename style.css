@@ -1,0 +1,189 @@
+*{
+    
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #ff5722 ;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+}
+h1{
+    margin: 0px;
+}
+nav a{
+    text-decoration: none;
+    color: #f3f4f6;
+    padding: 10px;
+}
+header p{
+    margin: 16px;
+}
+article{
+    background-color: white;
+    border-radius: 10px;
+    width:420px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+article p{
+    text-align: justify;
+    padding: 0 15px;
+}
+footer{
+    background-color: black;
+    height: 80px;
+    color: white;
+    text-align: center;
+    
+}
+footer p{
+    padding-top: 35px;
+}
+
+    .conteudo{ 
+        display:flex;
+        flex-wrap: wrap;
+        justify content:space-around;
+        align-items: flex-start;
+    }
+
+    a:hover{
+        background-color: white;
+        color(black);
+        border-radius: 5px;
+    }
+    .paginaatual{
+        background-color: #ff5722;
+        border-radius: 5px;
+    
+    }
+    *{
+    
+    }
+    body{
+        font-family: Arial, sans-serif;
+        background-color: #f3f4f6;
+        color: #333;
+        margin: 0px;
+        padding: 0px;
+    }
+    header{
+        background-color: #ff5722 ;
+        color: white;
+        text-align: center;
+        margin: 0px;
+        padding: 15px;
+    }
+    h1{
+        margin: 0px;
+    }
+    nav a{
+        text-decoration: none;
+        color: #f3f4f6;
+        padding: 10px;
+    }
+    header p{
+        margin: 16px;
+    }
+    article{
+        background-color: white;
+        border-radius: 10px;
+        width:420px;
+        padding: 10px;
+        margin: auto;
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    article p{
+        text-align: justify;
+        padding: 0 15px;
+    }
+    footer{
+        background-color: black;
+        height: 80px;
+        color: white;
+        text-align: center;
+        
+    }
+    footer p{
+        padding-top: 35px;
+    }
+    
+    .conteudo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        align-items:flex-start;
+    }
+    
+    a:hover{
+        background-color: #f3f4f6;
+        color: black;
+        border-radius: 5px;
+    }
+    
+    .paginaAtual{
+        background-color: #d16645;
+        border-radius: 5px;
+    }
+    
+    input:focus, .artigo1:hover{
+        background-color: aqua;
+    }
+    
+    .artigo1:hover{
+        width: 500px;
+        transition: 1s;
+    }
+
+    .artigo3:hover {
+        background-color: #f3f4f6;
+        color: #f3f4f6;
+        background-position: top right;
+        background-image: url('https://www.sabornamesa.com.br/media/k2/items/cache/b5b56b2ae93d3dc958cf0c21c9383b18_XL.jpg')
+    }   
+    
+    .artigo2:hover{
+        background-color: white;
+        color: #f3f4f6;
+        background-position: top right;
+        background-image: url('https://th.bing.com/th/id/R.ae0f7f6d6d6b465c52345273bf7b90ba?rik=eBcN9OIa9meAoQ&riu=http%3a%2f%2fwebamilanesa.com.br%2fwp-content%2fuploads%2f2012%2f12%2fbolo-de-cenoura.jpg&ehk=I0j%2fLi7zhP48Qwhn3O2gDYlaNsAGkpW%2fkHc%2f3MxADSg%3d&risl=&pid=ImgRaw&r=0');
+            background-size: cover;
+     
+        
+        
+    }
+    
+    @media (max-width:800px) and (orientation:portrait){
+        
+        header{
+            background-color: aquamarine;
+            color: black;
+            display: none;
+        }
+        
+    }
+    
+    @media (max-width:800px) and (orientation:landscape){
+        
+        header{
+            background-color: aquamarine;
+            color: black;
+        }
+        
+    }
+    
+    
+    
